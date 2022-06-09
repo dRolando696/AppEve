@@ -9,6 +9,8 @@ export class TagComponent implements OnInit {
 
   public image?:string;
   public Titulo:string="INTERPOLACION";
+
+  //recibe datos entre componentes
   @Input() dataEntrante:any;
   constructor() { }
 
